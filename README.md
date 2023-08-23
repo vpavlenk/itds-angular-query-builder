@@ -1,4 +1,4 @@
-# NgxAngularQueryBuilder
+# itdsAngularQueryBuilder
 
 The goal of this project is to enable Angular 12+ support for the original [angular2-query-builder](https://github.com/zebzhao/Angular-QueryBuilder). It is *not* production ready. This project may not be maintained. Should the original project become active again, this library may be abandoned.
 
@@ -18,18 +18,18 @@ Use the following versions depending upon your angular version
 
 # Examples
 
-npm install ngx-angular-query-builder
+npm install itds-angular-query-builder
 
 ## Basic Usage
 
 ##### `app.module.ts`
 ```javascript
-import { NgxAngularQueryBuilderModule } from "ngx-angular-query-builder";
+import { ItdsAngularQueryBuilderModule } from "itds-angular-query-builder";
 import { AppComponent } from "./app.component"
 
 @NgModule(imports: [
   ...,
-  NgxAngularQueryBuilderModule,
+  ItdsAngularQueryBuilderModule,
 ])
 export class AppModule { }
 ```
@@ -42,7 +42,7 @@ export class AppModule { }
 ```
 ##### `app.component.ts`
 ```javascript
-import { QueryBuilderConfig } from 'ngx-angular-query-builder';
+import { QueryBuilderConfig } from 'itds-angular-query-builder';
 
 export class AppComponent {
   query = {

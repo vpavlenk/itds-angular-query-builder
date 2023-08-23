@@ -4,7 +4,7 @@ import { MatFormFieldAppearance } from '@angular/material/form-field';
 
 import {
   QueryBuilderClassNames, QueryBuilderConfig
-} from 'projects/ngx-angular-query-builder/src/public-api';
+} from 'projects/itds-angular-query-builder/src/public-api';
 
 @Component({
   selector: 'app-root',

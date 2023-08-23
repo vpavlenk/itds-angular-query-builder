@@ -44,4 +44,4 @@ import { QueryEmptyWarningDirective } from './query-builder/query-empty-warning.
     QueryArrowIconDirective
   ]
 })
-export class NgxAngularQueryBuilderModule { }
+export class ItdsAngularQueryBuilderModule { }
