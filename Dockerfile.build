@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 COPY ./ ./
 RUN npm config set registry https://jenkins:8443/repository/npm-group/
 RUN npm config set https://jenkins:8443/repository/npm-group/:_auth ${credentials}
+RUN npm config set ${repository}:_auth ${credentials}
 RUN npm config set strict-ssl false
 RUN npm install -g @angular/cli@16.2.0
 RUN npm install
