@@ -16,4 +16,4 @@ export * from './lib/query-builder/query-remove-button.directive';
 export * from './lib/query-builder/query-empty-warning.directive';
 export * from './lib/query-builder/query-arrow-icon.directive';
 
-export * from './lib/itds-angular-query-builder.module';
+export * from './lib/angular-query-builder.module';
